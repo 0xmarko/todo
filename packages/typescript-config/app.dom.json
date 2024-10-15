@@ -1,0 +1,7 @@
+{
+  "display": "App (with DOM)",
+  "extends": ["@total-typescript/tsconfig/bundler/dom/app", "./base.json"],
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}

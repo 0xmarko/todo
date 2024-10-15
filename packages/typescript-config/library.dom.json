@@ -1,0 +1,10 @@
+{
+  "display": "Library (with DOM)",
+  "extends": [
+    "@total-typescript/tsconfig/bundler/dom/library-monorepo",
+    "./base.json"
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}

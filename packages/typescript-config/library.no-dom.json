@@ -1,0 +1,7 @@
+{
+  "display": "Library (no DOM)",
+  "extends": [
+    "@total-typescript/tsconfig/bundler/no-dom/library-monorepo",
+    "./base.json"
+  ]
+}
