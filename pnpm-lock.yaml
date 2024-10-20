@@ -140,11 +140,7 @@ importers:
         specifier: 'catalog:'
         version: 3.4.13
 
-  packages/typescript-config:
-    devDependencies:
-      '@total-typescript/tsconfig':
-        specifier: ^1.0.4
-        version: 1.0.4
+  packages/typescript-config: {}
 
 packages:
 
@@ -820,9 +816,6 @@ packages:
   '@tanstack/virtual-file-routes@1.64.0':
     resolution: {integrity: sha512-soW+gE9QTmMaqXM17r7y1p8NiQVIIECjdTaYla8BKL5Flj030m3KuxEQoiG1XgjtA0O7ayznFz2YvPcXIy3qDg==}
     engines: {node: '>=12'}
-
-  '@total-typescript/tsconfig@1.0.4':
-    resolution: {integrity: sha512-fO4ctMPGz1kOFOQ4RCPBRBfMy3gDn+pegUfrGyUFRMv/Rd0ZM3/SHH3hFCYG4u6bPLG8OlmOGcBLDexvyr3A5w==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -2263,8 +2256,6 @@ snapshots:
   '@tanstack/store@0.5.5': {}
 
   '@tanstack/virtual-file-routes@1.64.0': {}
-
-  '@total-typescript/tsconfig@1.0.4': {}
 
   '@types/babel__core@7.20.5':
     dependencies:

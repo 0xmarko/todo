@@ -1,0 +1,7 @@
+{
+  "display": "No Dom",
+  "extends": ["./base.json"],
+  "compilerOptions": {
+    "lib": ["es2022"]
+  }
+}

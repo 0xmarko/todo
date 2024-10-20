@@ -1,4 +1,4 @@
 {
-  "extends": "@repo/typescript-config/app.no-dom.json",
+  "extends": "@repo/typescript-config/no-dom.json",
   "include": ["**/*.ts", "**/*.tsx"]
 }

@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/app.dom.json",
+  "extends": "@repo/typescript-config/dom.json",
   "compilerOptions": { "paths": { "~/*": ["./src/*"] } },
   "include": ["**/*.ts", "**/*.tsx"]
 }

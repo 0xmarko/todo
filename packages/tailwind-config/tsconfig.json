@@ -1,4 +1,4 @@
 {
-  "extends": "@repo/typescript-config/library.dom.json",
+  "extends": "@repo/typescript-config/dom.json",
   "include": ["./tailwind.config.ts"]
 }

@@ -5,6 +5,7 @@ import './styles/globals.css';
 
 const router = createRouter({
   routeTree,
+  defaultPendingMinMs: 0,
   defaultPreload: 'intent',
 });
 
