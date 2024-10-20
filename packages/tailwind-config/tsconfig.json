@@ -1,5 +1,4 @@
 {
   "extends": "@repo/typescript-config/library.dom.json",
-  // "compilerOptions": { "verbatimModuleSyntax": false },
   "include": ["./tailwind.config.ts"]
 }

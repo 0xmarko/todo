@@ -4,9 +4,9 @@ import { TanStackRouterDevtools } from '@tanstack/router-devtools';
 import { Button } from '~/components/ui/button';
 import { Providers } from './-providers';
 
-export const Route = createRootRoute({ component: Root });
+export const Route = createRootRoute({ component: RootLayout });
 
-function Root() {
+function RootLayout() {
   return (
     <Providers>
       <div>Root Layout</div>

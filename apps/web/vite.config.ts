@@ -10,6 +10,7 @@ export default defineConfig({
       generatedRouteTree: './src/routes.gen.ts',
       indexToken: 'page',
       routeToken: 'layout',
+      autoCodeSplitting: true,
     }),
     tsconfigPaths(),
     react(),
