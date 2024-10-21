@@ -1,4 +1,3 @@
-import { edenPlugin } from '@ap0nia/eden-react-query/server';
 import { cors } from '@elysiajs/cors';
 import { swagger } from '@elysiajs/swagger';
 import { Elysia, t } from 'elysia';
@@ -25,7 +24,6 @@ export const app = new Elysia()
       allowedHeaders: ['content-type'],
     }),
   )
-  .use(edenPlugin({ batch: false }))
   .use(todosRouter)
   .get('/ping', () => ({ status: 'OK' }), {
     response: t.Object({ status: t.String() }),

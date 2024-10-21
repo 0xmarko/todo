@@ -1,7 +1,10 @@
 # dependencies
 node_modules
 
-# production
+# turbo
+.turbo
+
+# build
 build
 dist
 
