@@ -1,23 +1,10 @@
-import { useQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { api } from '~/lib/api';
 
 export const Route = createFileRoute('/_app/')({ component: Page });
 
 function Page() {
-  const {
-    data: todos,
-    isPending,
-    isError,
-  } = useQuery({
-    queryKey: ['todos'],
-    queryFn: async () => {
-      const response = await api.todos.all.get();
-      console.log('response mutation:', response);
-      if (response.error) throw response.error;
-      return response.data;
-    },
-  });
+  const { data: todos, isPending, isError } = api.todos.all.get.useQuery();
 
   return (
     <div>

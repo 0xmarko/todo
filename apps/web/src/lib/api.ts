@@ -1,6 +1,10 @@
-import { treaty } from '@elysiajs/eden';
+import { createEdenTreatyReactQuery } from '@ap0nia/eden-react-query';
 import type { App } from '@repo/api';
 
-export const api = treaty<App>(import.meta.env.VITE_BASE_API_URL, {
-  fetch: { credentials: 'include' },
-});
+// import { treaty } from '@elysiajs/eden';
+
+// export const api = treaty<App>(import.meta.env.VITE_BASE_API_URL, {
+//   fetch: { credentials: 'include' },
+// });
+
+export const api = createEdenTreatyReactQuery<App>();
